@@ -2,11 +2,6 @@
 
 A lightweight collaborative document editor built for the Ajaia LLC full-stack developer assignment. Create, edit, share, and import documents with rich-text formatting.
 
-## Live Demo
-
-> **Deploy before submission:** See [Deployment](#deployment) below. Update this URL after deploying to Render.
-
-`https://YOUR-RENDER-URL.onrender.com`
 
 ## Features
 
