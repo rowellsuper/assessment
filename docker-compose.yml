@@ -1,0 +1,14 @@
+services:
+  ajaia-docs:
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - JWT_SECRET=${JWT_SECRET:-change-me-in-production}
+      - DATABASE_PATH=/app/server/data/ajaia.db
+    volumes:
+      - ajaia-data:/app/server/data
+
+volumes:
+  ajaia-data:
